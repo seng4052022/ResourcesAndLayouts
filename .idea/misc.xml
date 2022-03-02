@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/apple_vector.xml" value="0.10011749267578125" />
+        <entry key="app/src/main/res/drawable/ic__903e4e2ed5758ad3fb0da68c379744f.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_android_black_24dp.xml" value="0.134" />
+        <entry key="app/src/main/res/layout-w1240dp/activity_login.xml" value="0.229296875" />
+        <entry key="app/src/main/res/layout-w936dp/activity_login.xml" value="0.27109375" />
+        <entry key="app/src/main/res/layout/activity_constraint_layout.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_linear_layout.xml" value="0.2936447143554688" />
+        <entry key="app/src/main/res/layout/activity_linear_layout_start.xml" value="0.2052266438802083" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.3614583333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.37623762376237624" />
+        <entry key="app/src/main/res/layout/activity_relative_layout.xml" value="0.2647115071614583" />
+        <entry key="app/src/main/res/layout/activity_view.xml" value="0.19479166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE RelativeLayout [<!ELEMENT RelativeLayout (Button)*><!ATTLIST RelativeLayoutxmlns:android CDATA #REQUIREDxmlns:app CDATA #REQUIREDxmlns:tools CDATA #REQUIREDandroid:layout_width CDATA #REQUIREDandroid:layout_height CDATA #REQUIREDtools:context CDATA #REQUIRED><!ELEMENT Button (#PCDATA)><!ATTLIST Buttonandroid:id CDATA #REQUIREDandroid:layout_below CDATA #IMPLIEDandroid:layout_centerInParent CDATA #IMPLIEDandroid:layout_height CDATA #REQUIREDandroid:layout_marginStart CDATA #IMPLIEDandroid:layout_marginTop CDATA #IMPLIEDandroid:layout_toEndOf CDATA #IMPLIEDandroid:layout_width CDATA #REQUIREDandroid:text CDATA #REQUIRED>]>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".RelativeLayoutActivity">
+    <Button
+        android:layout_centerInParent="true"
+        android:id="@+id/btn1"
+        android:text="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <Button
+
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn1"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/btn1"
+        android:text="SENG 405">
+
+    </Button>
+
+</RelativeLayout>
